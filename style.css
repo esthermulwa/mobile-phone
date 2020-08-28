@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 40%;
+}
+
+div#phone {
+    margin: 2% auto;
+    width: 220px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 25px;
+    background-color: white;
+}
+
+div#screen {
+    margin: 5px auto;
+    width: 210px;
+    height: 250px;
+    border: 1px solid transparent;
+    border-radius: 25px 25px 15px 15px;
+    margin-bottom: 0px;
+    background-color: deep white;
+}
+
+div#screen p {
+    margin:  auto;
+    border-radius: 0px 0px 10px 10px;
+    background-color: blue;
+    text-align: center;
+    width: 70px;
+    line-height: 0.01px;
+    height: 8px;
+    color: blue;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 0px;
+}
+
+div#output {
+    margin: 0px auto;
+    width: 180px;
+    height: 125px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+div#homekeys {
+    margin: 1px auto;
+    width: 210px;
+    height: 60px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+div#keys {
+    margin: auto;
+    width: 210px;
+    height: 170px;
+    border: 1px solid transparent;
+    border-radius: 15px 15px 25px 25px;
+}
+
+div#left {
+    float: left;
+    margin: 1px auto;
+    width: 72px;
+    height: 55px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+div#mid {
+    float: left;
+    margin: 1px auto;
+    width: 60px;
+    height: 55px;
+    border: 1px solid #000;
+    border-radius: 15px;
+}
+
+div#right {
+    float: left;
+    margin: 1px auto;
+    width: 72px;
+    height: 55px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+div#left button, div#right button {
+    margin: 2px 7px 3px 7px;
+    width: 60px;
+    height: 25px;
+    color: rgba(225,225,225,0.5);
+    background-color: black;
+    border-radius: 15px;
+}
+
+div#keys button {
+    margin-bottom: 2px;
+    width: 68px;
+    height: 40px;
+    color: rgba(225,225,225,0.5);
+    background-color: black;
+    font-size: 150%;
+}
+
+div#keys div {
+    float: left;
+    margin-top: 1px;
+}
+
+div#c1 button, div#c2 button, div#c3 button {
+    margin-left: 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+div#c2 button {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+div#c1 button#one {
+    border-top-left-radius: 15px;
+}
+
+div#c1 button#for {
+    border-bottom-left-radius: 25px;
+}
+
+div#c3 button#thre {
+    border-top-right-radius: 15px;
+}
+
+div#c3 button#hash{
+    border-bottom-right-radius: 25px;
+}
